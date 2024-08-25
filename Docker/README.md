@@ -68,7 +68,7 @@ mysql -h <endpoint> -u <user> -p<password>
   ```sh
   vim worker.service.tf
   ```
-  - add public ip of instance and port we exposed 8085 
+  - add public ip of instance and port we exposed 8081
 
   ## Docker build
 
