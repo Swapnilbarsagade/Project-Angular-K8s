@@ -39,11 +39,11 @@ CREATE TABLE `tbl_workers` (
 --
 
 INSERT INTO `tbl_workers` (`id`, `status`, `workerfname`, `workerlname`) VALUES
-(1, 'Student', 'Akash', 'Shinde'),
-(37, 'Vacation', 'Marko', 'Markovic'),
-(40, 'Working', 'Ivo', 'Ivica'),
-(41, 'Working', 'Luka', 'Lukovic'),
-(42, 'Working', 'Filip', 'Filipovic');
+(1, 'Student', 'Abhi', 'Dhoble'),
+(37, 'Vacation', 'Steve', 'Rogers'),
+(40, 'Working', 'Tony', 'Stark'),
+(41, 'Working', 'Harry', 'Potter'),
+(42, 'Working', 'Luna', 'Lovegood');
 
 --
 -- Indexes for dumped tables
