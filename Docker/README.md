@@ -1,6 +1,6 @@
 ## launch rds mysql db instance 
 
-- login in cloudshell:
+- login in :
 ```sh
   mysql -h <endpoint_of_db_instance> -u <user_name> -p<password>
 ``` 
@@ -14,11 +14,11 @@ exit
 ```
 - clone github repo 
 ```sh
-git clone https://github.com/sharadrathod/angular.js_spring_boot_.with_Dockerfile.git 
+git clone https://github.com/abhipraydhoble/Project-Angular-K8s.git
 ```
 - go into cloned repo
 ```sh
-cd angular.js_spring_boot_.with_Dockerfile
+cd Project-Angular-K8s
 ``` 
 - create shchema in mysql 
 ```sh
@@ -56,7 +56,7 @@ mysql -h <endpoint> -u <user> -p<password>
   ```
   - add there <endpoint of db>:3306
   - add user_name of=admin 
-  - password=Admin123
+  - password=Pass1234%
 
   ## frontend 
 
@@ -79,11 +79,11 @@ mysql -h <endpoint> -u <user> -p<password>
   ```
   - **Docker build**
   ```sh
-  docker build -t "piyu5233/angular-test:backend" .
+  docker build -t ang-backend .
   ```
   - **run and expose container**
   ```sh
-  docker run -d -p 8085:8085 backend
+  docker run -d -p 8081:8081 ang-backend
   ```
   - check container 
   ```sh
@@ -93,11 +93,11 @@ mysql -h <endpoint> -u <user> -p<password>
   - cd into frontend
   - **Docker build**
   ```sh
-  docker build -t "piyu5233/angular-test:frontend" .
+  docker build -t ang-frontend .
   ```
   - **run and expose container**
   ```sh
-  docker run -d -p 30080:30080 frontend
+  docker run -d -p 30080:30080 ang-frontend 
   ```
   - check container 
   ```sh
