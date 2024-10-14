@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: piyu5233/angular-test:frontend
+        image: swapnil0078/ang_frontend:micro
         ports:
         - name: angular
-          containerPort: 30080
+          containerPort: 80
           protocol: TCP 

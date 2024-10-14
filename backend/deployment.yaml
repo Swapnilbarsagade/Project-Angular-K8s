@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: backend-app 
-        image: piyu5233/angular-test:backend
+        image: swapnil0078/ang_backend:micro
         ports:
-        - name: springboot-tomcat
-          containerPort: 8085
+        - name: tomcat
+          containerPort: 8080
           protocol: TCP 

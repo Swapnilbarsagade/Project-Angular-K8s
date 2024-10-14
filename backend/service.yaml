@@ -6,7 +6,7 @@ spec:
   selector: 
     app: backend-app 
   ports: 
-  - name: springboot-tomcat 
-    targetPort: 8085
-    port: 8085
+  - name: tomcat 
+    targetPort: 8080
+    port: 8080
   type: ClusterIP

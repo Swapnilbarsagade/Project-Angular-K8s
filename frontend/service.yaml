@@ -7,6 +7,6 @@ spec:
     app: frontend-app 
   ports: 
   - name: angular 
-    targetPort: 30080
-    port: 30080
+    targetPort: 80
+    port: 80
   type: LoadBalancer
