@@ -9,4 +9,4 @@ spec:
   - name: angular 
     targetPort: 30080
     port: 30080
-  type: NodePort 
+  type: LoadBalancer
